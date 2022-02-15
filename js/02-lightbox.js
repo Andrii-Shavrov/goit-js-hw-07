@@ -33,13 +33,3 @@ const lightbox = new SimpleLightbox('.gallery a', {
   captionPosition: 'bottom',
   captionClass: '',
 })
-
-const lightbox = new SimpleLightbox('.gallery a', {
-  captions: true,
-  captionDelay: 250,
-  captionSelector: 'img',
-  captionType: 'attr',
-  captionsData: 'alt',
-  captionPosition: 'bottom',
-  captionClass: '',
-})
